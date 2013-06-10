@@ -1,0 +1,24 @@
+<html>
+<head>
+<link href="/../static/rs.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<table id="parent_table" align="center" width="500px;" style="margin-left: 500px; margin-top: 100px;">
+		<tr>
+        <td colspan="2" class="table_heading"></td>
+    </tr>
+		<tr>
+			<td>Name:</td><td> {{ user_name}}</td>
+		</tr>
+		<tr>
+			<td>Stars Earned :</td><td> {{star_earned}}</td>
+		</tr>
+		<tr>
+			<td>Stars Available:</td><td> {{star_avail}}</td>
+		</tr>
+		<tr>
+		<td> <a href="/award_star">Award Points</a></td>
+		</tr>
+	</table>
+</body>
+</html>

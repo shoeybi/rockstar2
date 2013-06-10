@@ -1,0 +1,17 @@
+<html>
+ <head>
+    <link href="/../static/rs.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <table border="1" id="parent_table" align="center" style="margin-left: 500px; margin-top: 100px;">
+		<tr>
+        <td colspan="2" class="table_heading"> User Ranking</td>
+    	{% for user_name in ranked_users %}
+    		</tr>
+    			<td>{{ user_name }} </td>
+    		</tr>
+    	{% endfor %}
+    </table>
+  </body>
+</html>
+

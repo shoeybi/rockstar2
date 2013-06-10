@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #FFFFCC;
+}
+td {
+    padding: 8px;
+    font: 13px Verdana, Arial, Helvetica, sans-serif;
+}
+.label {
+    text-align: right;
+}
+.active_button {
+    width: 60px;
+    border: 1px solid;
+    padding: 2px;
+    font: 13px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #CCFF99;
+}
+.table_heading {
+    text-align: center;
+    font: 15px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    background-color: #663300;
+}
+.green_band {
+    background-color: #663300;
+    height: 15px;
+}
+.error_message {
+	color: #F0290E;
+}
+#parent_table {
+	width: 350px;
+	height: 200px;
+	border: 1px solid;
+	background-color: #FFCC99;
+	margin: 5px;
+}
+#award_table {         
+        width: 450px;
+        height: 200px;
+        border: 1px solid;
+        background-color: #DAE5F2;
+        margin: 5px;
+}
+#message {
+	font: 15px Verdana, Arial, Helvetica, sans-serif;
+}
